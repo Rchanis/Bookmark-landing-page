@@ -1,0 +1,51 @@
+header {
+    padding: 3rem 9rem;
+    display: grid;
+    height: 29.125rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 10rem 10rem 5rem;
+    grid-template-areas: "title illustration"
+        "par illustration"
+        "buttons illustration";
+}
+
+header h1 {
+    grid-area: title;
+    font-size: 3rem;
+    padding-right: 5rem;
+}
+
+header p {
+    grid-area: par;
+    padding-right: 5rem;
+}
+
+header .buttons {
+    grid-area: buttons;
+}
+
+header .buttons button {
+    height: 2.5rem;
+    width: 12rem;
+
+}
+
+header img {
+    position: absolute;
+    grid-area: illustration;
+    right: 3rem;
+    justify-self: end;
+}
+
+header div:last-child {
+    position: relative;
+    grid-area: illustration;
+    height: 24rem;
+    width: 31rem;
+    border-bottom-left-radius: 10rem;
+    justify-self: end;
+    right: -9rem;
+    top: 8rem;
+    z-index: -1;
+    background-color: blue;
+}
