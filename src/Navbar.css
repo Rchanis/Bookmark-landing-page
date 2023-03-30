@@ -1,0 +1,56 @@
+nav {
+  padding: 3rem 9rem;
+  display: grid;
+  grid-template-columns: 10rem 1fr 8rem 8rem 8rem 10rem;
+  grid-template-areas:
+    "logo . features pricing contact login";
+  align-items: center;
+  font-size: 1rem;
+
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  font-family: 'Rubik', sans-serif;
+}
+
+button:active {
+  color: orange
+}
+
+nav img:nth-child(1) {
+  grid-area: logo;
+}
+
+nav button:nth-child(3) {
+  grid-area: features
+}
+
+nav button:nth-child(4) {
+  grid-area: pricing;
+}
+
+nav button:nth-child(5) {
+  grid-area: contact
+}
+
+nav a:nth-child(6) {
+  grid-area: login;
+  justify-self: center;
+  width: 75%;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3rem;
+  background-color: red;
+  color: white;
+  border: 2px solid red;
+}
+
+nav a:nth-child(6):active {
+  background-color: transparent;
+  color: red;
+}
