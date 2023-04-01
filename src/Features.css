@@ -99,6 +99,11 @@ article #features {
     color: white
 }
 
+.features-data button:active {
+    background-color: transparent;
+    color: blue
+}
+
 .features-data img {
     grid-area: illustration;
     justify-self: start;
