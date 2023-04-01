@@ -1,0 +1,119 @@
+article #features {
+    height: 100vh;
+}
+
+#features #features-header {
+    display: grid;
+    padding: 3rem 20rem;
+    text-align: center;
+    grid-template-rows: 4rem 7rem 4rem;
+    grid-template-areas: "title"
+        "paragraph"
+        "buttons";
+}
+
+#features h2 {
+    grid-area: title;
+    font-size: 2rem;
+}
+
+#features #features-header p {
+    grid-area: paragraph;
+    padding-inline: 8rem;
+}
+
+#features .buttons {
+    grid-area: buttons;
+    display: flex;
+    justify-content: space-around;
+}
+
+#features .buttons button {
+    width: 100%;
+}
+
+#features .buttons button:active {
+    color: orange;
+}
+
+#features .buttons:last-child {
+    align-self: flex-end;
+    height: 0.2rem;
+    width: 100%;
+    box-shadow: 0 0.05rem grey;
+}
+
+#features .buttons:last-child div {
+    height: 100%;
+    width: 100%;
+}
+
+#simple-bookmarking-button {
+    background-color: orange
+}
+
+#speedy-searching {
+    display: none;
+}
+
+#easy-sharing {
+    display: none;
+}
+
+.features-data {
+    display: grid;
+    height: 60vh;
+    padding: 2rem 10rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 7rem 6rem 1fr;
+    grid-template-areas: "illustration  title"
+        "illustration  paragraph"
+        "illustration  more-info";
+}
+
+.features-data h3 {
+    padding-left: 3rem;
+    font-size: 2rem;
+    margin: 0;
+    grid-area: title;
+    align-self: self-end;
+}
+
+.features-data p {
+    margin-left: 3rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    grid-area: paragraph;
+    align-self: center;
+}
+
+.features-data button {
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    grid-area: more-info;
+    height: 2.5rem;
+    width: 8rem;
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 0.3rem;
+    color: white
+}
+
+.features-data img {
+    grid-area: illustration;
+    justify-self: start;
+    width: 535px;
+}
+
+.features-data div:last-child {
+    position: relative;
+    grid-area: illustration;
+    align-self: center;
+    height: 22rem;
+    width: 36rem;
+    z-index: -1;
+    left: -10rem;
+    border-bottom-right-radius: 10rem;
+    border-top-right-radius: 10rem;
+    background-color: blue;
+}

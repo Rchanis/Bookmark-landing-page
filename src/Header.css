@@ -27,8 +27,32 @@ header .buttons {
 header .buttons button {
     height: 2.5rem;
     width: 12rem;
-
+    border: 2px solid blue;
+    border-radius: 0.3rem;
+    margin-right: 0.825rem;
 }
+
+header .buttons button:first-child {
+    background-color: blue;
+    color: white
+}
+
+header .buttons button:first-child:active {
+    background-color: transparent;
+    color: blue;
+}
+
+header .buttons button:last-child {
+    background-color: grey;
+    border-color: grey;
+    color: rgb(77, 76, 76)
+}
+
+header .buttons button:last-child:active {
+    background-color: transparent;
+    color: grey;
+}
+
 
 header img {
     position: absolute;
