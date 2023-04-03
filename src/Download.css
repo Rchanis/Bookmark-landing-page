@@ -23,6 +23,7 @@ article #download {
 
 #download-containers {
     display: flex;
+    flex-wrap: wrap;
     padding-inline: 14rem;
     height: 30rem;
     justify-content: space-evenly;

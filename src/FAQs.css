@@ -1,0 +1,40 @@
+#FAQs #FAQs-header {
+    display: grid;
+    padding: 3rem 20rem;
+    text-align: center;
+    grid-template-rows: 4rem 7rem;
+    grid-template-areas: "title"
+        "paragraph";
+}
+
+#FAQs h2 {
+    grid-area: title;
+    font-size: 2rem;
+}
+
+#FAQs #FAQs-header p {
+    grid-area: paragraph;
+    padding-inline: 8rem;
+}
+
+details {
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+details>summary {
+    list-style-type: '  ';
+}
+
+details[open]>summary {
+    list-style-type: '';
+}
+
+summary svg {
+    display: inline;
+}
+
+details[open]>summary svg {
+    transform: rotate(180deg);
+    color: red;
+}
