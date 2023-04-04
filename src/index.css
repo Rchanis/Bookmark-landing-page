@@ -23,3 +23,17 @@ code {
   white-space: nowrap;
   width: 1px;
 }
+
+.more-info {
+  height: 2.5rem;
+  width: 8rem;
+  background-color: blue;
+  border: 2px solid blue;
+  border-radius: 0.3rem;
+  color: white
+}
+
+.more-info:active {
+  background-color: transparent;
+  color: blue
+}

@@ -19,7 +19,18 @@
 
 details {
     border-bottom: 1px solid grey;
-    border-top: 1px solid grey;
+    padding-block: 1rem;
+}
+
+details:first-of-type{
+    border-top: 1px solid grey
+}
+
+summary{
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 details>summary {
@@ -32,9 +43,31 @@ details[open]>summary {
 
 summary svg {
     display: inline;
+    padding-inline: 1rem;
+}
+
+summary:active{
+    color: red; 
 }
 
 details[open]>summary svg {
     transform: rotate(180deg);
-    color: red;
+    filter:brightness(0%) saturate(100%);
+    filter: invert(55%) sepia(34%) saturate(6156%) hue-rotate(328deg) brightness(104%) contrast(99%);
+}
+
+#FAQs #FAQs-content {
+    display: grid;
+    padding-inline: 28rem;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+#FAQs-content .more-info{
+    margin-top: 3.5rem ;
+    justify-self: center;
+}
+
+#FAQs-content p{
+    margin-top: 1.5rem;
 }

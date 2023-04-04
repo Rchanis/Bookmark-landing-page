@@ -62,7 +62,7 @@ function Features() {
                         Organize your bookmarks however you like. Our simple drag-and-drop
                         interface gives you complete control over how you manage your favourite sites.
                     </p>
-                    <button >more info</button>
+                    <button className="more-info">more info</button>
                     <div></div>
                 </div>
                 <div id="speedy-searching" class="features-data">
@@ -74,7 +74,7 @@ function Features() {
                         Our powerful search feature will help you find saved sites in no time at
                         all. No need to trawl through all of your bookmarks.
                     </p>
-                    <button >more info</button>
+                    <button className="more-info">more info</button>
                     <div></div>
                 </div>
                 <div id="easy-sharing" class="features-data">
@@ -86,7 +86,7 @@ function Features() {
                         Easily share your bookmarks and collections with others. Create a shareable
                         link that you can send at the click of a button.
                     </p>
-                    <button >more info</button>
+                    <button className="more-info">more info</button>
                     <div></div>
                 </div>
             </div>
