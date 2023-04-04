@@ -96,7 +96,7 @@ article #features {
 
 .features-data button:active {
     background-color: transparent;
-    color: blue
+    color: hsl(231, 69%, 60%)
 }
 
 .features-data img {
@@ -115,5 +115,5 @@ article #features {
     left: -10rem;
     border-bottom-right-radius: 10rem;
     border-top-right-radius: 10rem;
-    background-color: blue;
+    background-color: hsl(231, 69%, 60%);
 }

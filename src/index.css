@@ -27,13 +27,13 @@ code {
 .more-info {
   height: 2.5rem;
   width: 8rem;
-  background-color: blue;
-  border: 2px solid blue;
+  background-color: hsl(231, 69%, 60%);
+  border: 2px solid hsl(231, 69%, 60%);
   border-radius: 0.3rem;
   color: white
 }
 
 .more-info:active {
   background-color: transparent;
-  color: blue
+  color: hsl(231, 69%, 60%)
 }

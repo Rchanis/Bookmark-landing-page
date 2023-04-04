@@ -69,15 +69,15 @@ article #download {
     grid-area: install;
     width: 80%;
     height: 55%;
-    background-color: blue;
+    background-color: hsl(231, 69%, 60%);
     color: white;
-    border: 2px solid blue;
+    border: 2px solid hsl(231, 69%, 60%);
     border-radius: 0.4rem;
 }
 
 .container button:active {
     background-color: transparent;
-    color: blue;
+    color: hsl(231, 69%, 60%);
 }
 
 #download-chrome {
