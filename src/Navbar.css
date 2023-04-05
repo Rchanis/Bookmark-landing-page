@@ -1,4 +1,4 @@
-nav {
+#navbar {
   padding: 3rem 9rem;
   display: grid;
   grid-template-columns: 10rem 1fr 8rem 8rem 8rem 10rem;
@@ -16,27 +16,27 @@ button {
   font-family: 'Rubik', sans-serif;
 }
 
-button:active {
+#navbar button:active {
   color: orange
 }
 
-nav img:nth-child(1) {
+#navbar img:nth-child(1) {
   grid-area: logo;
 }
 
-nav button:nth-child(3) {
+#navbar button:nth-child(3) {
   grid-area: features
 }
 
-nav button:nth-child(4) {
+#navbar button:nth-child(4) {
   grid-area: pricing;
 }
 
-nav button:nth-child(5) {
+#navbar button:nth-child(5) {
   grid-area: contact
 }
 
-nav a:nth-child(6) {
+#navbar a:nth-child(6) {
   grid-area: login;
   justify-self: center;
   width: 75%;
@@ -50,7 +50,7 @@ nav a:nth-child(6) {
   border: 2px solid red;
 }
 
-nav a:nth-child(6):active {
+#navbar a:nth-child(6):active {
   background-color: transparent;
   color: red;
 }

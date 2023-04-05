@@ -2,18 +2,22 @@ import facebook_white_logo from "./images/icon-facebook.svg";
 import twitter_white_logo from "./images/icon-twitter.svg";
 import bookmark_logo from "./images/logo-bookmark.svg";
 
-function Footer(){
-    return(
-        <footer>
-            <form>
+import "./Footer.css"
+
+function Footer() {
+    return (
+        <footer id="footer">
+            <form id="footer-email">
                 <p>35.000+ ALREADY JOINED</p>
                 <label>
-                    Stay up-to-date with what we're doing
-                    <input type="email"></input>
-                    <button>Contact Us</button>
+                    <span>Stay up-to-date with what we're doing</span>
+                    <div>
+                        <input type="email"></input>
+                        <button>Contact Us</button>
+                    </div>
                 </label>
             </form>
-            <nav>
+            <nav id="footer-navbar">
                 <img alt="bookmark-logo" src={bookmark_logo}>
 
                 </img>
@@ -28,7 +32,7 @@ function Footer(){
                 </button>
                 <button aria-label="go to our facebook page">
                     <img aria-hidden="true" alt="facebook logo" src={facebook_white_logo}>
-                    </img>  
+                    </img>
                 </button>
                 <button aria-label="go to our twitter page">
                     <img aria-hidden="true" alt="twitter logo" src={twitter_white_logo}>

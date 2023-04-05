@@ -3,7 +3,7 @@ import './Navbar.css';
 
 function Navbar() {
   return (
-    <nav>
+    <nav id="navbar">
       <img src={logo_bookmark} alt="bookmark logo" />
       <button src="#get-chrome" className="visuallyhidden">SKIP TO THE CONTENT</button>
       <button src="#features" aria_label="jump to the features part">FEATURES</button>

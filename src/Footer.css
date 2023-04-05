@@ -1,0 +1,94 @@
+#footer-email {
+    display: grid;
+    background-color: hsl(231, 69%, 60%);
+    padding-inline: 20rem;
+    margin-top: 9rem;
+    text-align: center;
+    color: white
+}
+
+#footer-email p {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-size: 0.825rem;
+    letter-spacing: 0.2rem;
+}
+
+#footer-email label {
+    display: grid;
+
+}
+
+#footer-email label span {
+    font-size: 2rem;
+    padding-inline: 3rem;
+    padding-bottom: 3rem;
+}
+
+#footer-email div {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+
+#footer-email div input {
+    display: inline;
+    min-width: 8rem;
+    width: 70%;
+    border-style: none;
+    padding-inline: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+#footer-email div button {
+    display: inline;
+    height: 2.5rem;
+    background-color: hsl(0, 94%, 66%);
+    border: 2px solid hsl(0, 94%, 66%);
+    border-radius: 0.3rem;
+    color: white;
+    min-width: 8rem;
+    width: 25%;
+}
+
+#footer-email div button:active {
+    background-color: transparent;
+    color: hsl(0, 94%, 66%);
+}
+
+
+#footer-navbar {
+    display: grid;
+    background-color: hsl(229, 31%, 21%);
+    height: 6.25rem;
+    padding: none;
+    padding-inline: 9rem;
+    grid-template-columns: 9rem 9rem 9rem 9rem 1fr 5rem 5rem;
+    grid-template-areas: "logo features pricing contact . facebook twitter";
+    align-items: center;
+}
+
+
+#footer-navbar button {
+    color: white
+}
+
+#footer-navbar button:nth-of-type(1) {
+    grid-area: features;
+}
+
+#footer-navbar button:nth-of-type(2) {
+    grid-area: pricing;
+}
+
+#footer-navbar button:nth-of-type(3) {
+    grid-area: contact;
+}
+
+#footer-navbar button:nth-of-type(4) {
+    grid-area: facebook;
+}
+
+#footer-navbar button:nth-of-type(5){
+    grid-area: twitter;
+}
