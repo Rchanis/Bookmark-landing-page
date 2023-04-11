@@ -12,7 +12,7 @@ function Footer() {
                 <label>
                     <span>Stay up-to-date with what we're doing</span>
                     <div>
-                        <input type="email"></input>
+                        <input type="email"  placeholder="Enter your email address"></input>
                         <button>Contact Us</button>
                     </div>
                 </label>
