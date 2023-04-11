@@ -29,15 +29,20 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 3rem;
+    padding-inline: 3rem
 }
 
 #footer-email div input {
     display: inline;
     min-width: 8rem;
-    width: 70%;
+    width: 65%;
     border-style: none;
-    padding-inline: 0.5rem;
+    padding-inline: 1rem;
     border-radius: 0.3rem;
+}
+
+#footer-email div input::placeholder {
+    color: hsl(229, 8%, 60%);
 }
 
 #footer-email div button {

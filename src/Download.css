@@ -45,14 +45,11 @@ article #download {
     border-radius: 1rem;
 }
 
-.container div {
-    grid-area: separator;
-    text-align: center;
-    font-weight: 500;
-    letter-spacing: 0.82rem;
+.container .dots {
+    grid-area: separator;     
 }
 
-.container img {
+.container .logo {
     grid-area: logo;
 }
 
