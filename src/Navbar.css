@@ -16,6 +16,11 @@ button {
   font-family: 'Rubik', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: black
+}
+
 #navbar button:active {
   color: orange
 }
@@ -24,15 +29,15 @@ button {
   grid-area: logo;
 }
 
-#navbar button:nth-child(3) {
+#navbar a:nth-child(3) {
   grid-area: features
 }
 
-#navbar button:nth-child(4) {
+#navbar a:nth-child(4) {
   grid-area: pricing;
 }
 
-#navbar button:nth-child(5) {
+#navbar a:nth-child(5) {
   grid-area: contact
 }
 

@@ -43,14 +43,16 @@ header .buttons button:first-child:active {
 }
 
 header .buttons button:last-child {
-    background-color: hsl(229, 8%, 60%);
-    border-color: hsl(229, 8%, 60%);
-    color: rgb(77, 76, 76)
+    background-color: hsl(228, 9%, 90%);
+    border-color: hsl(228, 9%, 90%);
+    color: hsl(231, 5%, 30%);
+    box-shadow: 0.1rem 0.2rem 0.5rem 0px hsl(229, 8%, 60%);
 }
 
 header .buttons button:last-child:active {
     background-color: transparent;
-    color: hsl(229, 8%, 60%);
+    border-color: hsl(231, 5%, 30%);
+    color: hsl(231, 5%, 30%)
 }
 
 

@@ -33,7 +33,7 @@ article #features {
 }
 
 #features .buttons button:active {
-    color: orange;
+    color: hsl(0, 94%, 66%);
 }
 
 #features .buttons:last-child {
@@ -49,7 +49,7 @@ article #features {
 }
 
 #simple-bookmarking-button {
-    background-color: orange
+    background-color: hsl(0, 94%, 66%)
 }
 
 #speedy-searching {

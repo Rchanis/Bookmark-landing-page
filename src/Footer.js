@@ -12,7 +12,7 @@ function Footer() {
                 <label>
                     <span>Stay up-to-date with what we're doing</span>
                     <div>
-                        <input type="email"  placeholder="Enter your email address"></input>
+                        <input type="email" placeholder="Enter your email address"></input>
                         <button>Contact Us</button>
                     </div>
                 </label>
@@ -21,23 +21,17 @@ function Footer() {
                 <img alt="bookmark-logo" src={bookmark_logo}>
 
                 </img>
-                <button>
-                    FEATURES
-                </button>
-                <button>
-                    PRICING
-                </button>
-                <button>
-                    CONTACT
-                </button>
-                <button aria-label="go to our facebook page">
+                <a href="#features" aria_label="jump to the features part">FEATURES</a >
+                <a href="#contact" aria_label="jump to the contact part">CONTACT</a>
+                <a href="#pricing" aria_label="jump to the pricing part">PRICING</a>
+                <a aria-label="go to our facebook page">
                     <img aria-hidden="true" alt="facebook logo" src={facebook_white_logo}>
                     </img>
-                </button>
-                <button aria-label="go to our twitter page">
+                </a>
+                <a aria-label="go to our twitter page">
                     <img aria-hidden="true" alt="twitter logo" src={twitter_white_logo}>
                     </img>
-                </button>
+                </a>
             </nav>
         </footer>
     )

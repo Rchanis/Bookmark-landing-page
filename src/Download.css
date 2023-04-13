@@ -41,12 +41,12 @@ article #download {
         "separator"
         "install";
     align-items: center;
-    box-shadow: 2px 2px 2px 2px gray;
+    box-shadow: .1rem 0.2rem 1rem 0px hsl(227, 30%, 85%);
     border-radius: 1rem;
 }
 
 .container .dots {
-    grid-area: separator;     
+    grid-area: separator;
 }
 
 .container .logo {
